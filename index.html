@@ -1,148 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Ball Blast: Ember Strike</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ball Blast: Ember Strike — Privacy & Support</title>
+<meta name="description" content="Privacy policy and support contact for Ball Blast: Ember Strike." />
 <style>
   :root {
-    --bg: #0a0705;
-    --panel: #140d08;
-    --amber: #ff9a3c;
-    --amber-soft: #ffb86b;
-    --text: #f2ead9;
-    --muted: #a69783;
-    --border: rgba(255, 154, 60, 0.18);
+    --bg: #0b0d12;
+    --panel: #141821;
+    --text: #e8ecf4;
+    --muted: #8a93a6;
+    --accent: #ffb347;
+    --accent-2: #ff6b35;
+    --border: #232838;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    background: radial-gradient(ellipse at top, #1a0f08 0%, #0a0705 60%) fixed;
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    min-height: 100vh;
-    padding: 48px 20px 96px;
-  }
-  .wrap { max-width: 720px; margin: 0 auto; }
-  header { text-align: center; margin-bottom: 48px; }
-  .badge {
-    display: inline-block;
-    font-size: 11px; letter-spacing: 3px; font-weight: 700;
-    color: var(--amber);
-    padding: 6px 14px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-  }
-  h1 {
-    font-size: 34px; margin: 0 0 8px;
-    letter-spacing: 1px; font-weight: 800;
-    color: var(--text);
-  }
-  .subtitle { color: var(--muted); font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
-  .divider {
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--amber) 50%, transparent);
-    opacity: 0.4;
-    margin: 32px auto;
-    max-width: 200px;
-  }
-  section {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 22px 26px;
-    margin-bottom: 16px;
-  }
-  h2 {
-    font-size: 13px; letter-spacing: 2px; text-transform: uppercase;
-    color: var(--amber-soft);
-    margin: 0 0 10px;
-    font-weight: 700;
-  }
-  p { margin: 0 0 10px; color: var(--text); font-size: 15px; }
-  p:last-child { margin-bottom: 0; }
-  a { color: var(--amber); text-decoration: none; border-bottom: 1px solid var(--border); }
-  a:hover { color: var(--amber-soft); border-bottom-color: var(--amber-soft); }
-  footer {
-    text-align: center; margin-top: 40px;
-    color: var(--muted); font-size: 12px; letter-spacing: 1px;
-  }
-  code {
-    background: rgba(255, 154, 60, 0.08);
-    padding: 1px 6px;
-    border-radius: 4px;
-    font-size: 13px;
-    color: var(--amber-soft);
-  }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 96px; }
+  header { text-align: center; padding: 32px 0 48px; border-bottom: 1px solid var(--border); margin-bottom: 48px; }
+  .logo { font-size: 34px; font-weight: 800; background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; letter-spacing: -0.5px; }
+  .tag { color: var(--muted); margin-top: 8px; font-size: 15px; }
+  h1 { font-size: 26px; margin: 48px 0 12px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; color: var(--accent); }
+  p { color: #cdd3e0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 24px 28px; margin-top: 24px; }
+  .form-card { margin-top: 16px; }
+  label { display: block; margin-top: 14px; font-size: 14px; color: var(--muted); }
+  input, textarea { width: 100%; background: #0e1119; border: 1px solid var(--border); border-radius: 10px; color: var(--text); padding: 12px 14px; font-size: 15px; font-family: inherit; margin-top: 6px; }
+  textarea { min-height: 140px; resize: vertical; }
+  input:focus, textarea:focus { outline: none; border-color: var(--accent); }
+  button { margin-top: 20px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #1a1207; border: none; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  button:hover { filter: brightness(1.08); }
+  footer { margin-top: 64px; text-align: center; color: var(--muted); font-size: 13px; }
+  ul { color: #cdd3e0; }
+  li { margin: 6px 0; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="badge">Ball Blast · Ember Strike</div>
+  <div class="wrap">
+    <header>
+      <div class="logo">Ball Blast: Ember Strike</div>
+      <div class="tag">Privacy &amp; Support</div>
+    </header>
+
     <h1>Privacy Policy</h1>
-    <div class="subtitle">Last updated: April 14, 2026</div>
-    <div class="divider"></div>
-  </header>
+    <div class="meta">Last updated: April 15, 2026</div>
 
-  <section>
-    <h2>Summary</h2>
-    <p>Ball Blast: Ember Strike is a single-player game. If you choose to set a display name, we store that name along with your best score on Firebase servers so a global leaderboard can be shown. If you skip the display name, no personal data ever leaves your device.</p>
-  </section>
+    <p>Ball Blast: Ember Strike ("the App") is a single-player arcade game. This policy explains, in plain language, what information is collected when you use the App and how it is used.</p>
 
-  <section>
-    <h2>What We Collect</h2>
-    <p>When you set a display name and submit a score, we store:</p>
-    <p>• <strong>Display name</strong> (as you typed it)<br>
-    • <strong>Highest score</strong> achieved on this device<br>
-    • <strong>Timestamp</strong> of the submission<br>
-    • <strong>Anonymous player ID</strong> — a random UUID generated on first launch, stored locally and used only to keep your leaderboard entry stable across sessions.</p>
-  </section>
+    <h2>Information stored on your device</h2>
+    <p>Gameplay data — such as your high score, progress, and settings — is saved locally on your device using Apple's standard storage (UserDefaults). This data never leaves your device unless you submit a score to the global leaderboard (see below), and it is deleted if you uninstall the App.</p>
 
-  <section>
-    <h2>What We Do Not Collect</h2>
-    <p>We do not collect email addresses, phone numbers, contacts, location, photos, real names, passwords, or payment information. There are no ads, no third-party advertising trackers, and no in-app purchases. Your anonymous player ID is not linked to your Apple ID or any device identifier like IDFA or IDFV.</p>
-  </section>
+    <h2>Global leaderboard (Firebase)</h2>
+    <p>The App includes a global leaderboard showing the top scores across all players. This feature is powered by Google Firebase (Cloud Firestore). When you submit a score to the leaderboard, the following information is sent to and stored on Firebase servers:</p>
+    <ul>
+      <li>The display name or initials you choose to enter</li>
+      <li>Your score and level reached</li>
+      <li>A timestamp of the submission</li>
+    </ul>
+    <p>We do not collect your real name, email address, phone number, or contacts. You are free to enter any display name you like — it does not need to be your real name.</p>
+    <p>Firebase, as a Google service, may also automatically collect standard diagnostic information when communicating with its servers — such as IP address, device type, operating system version, and Firebase installation identifiers. This data is handled by Google under the <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy and Security Policy</a> and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+    <p>Submitting a score is optional. If you do not submit a score, no personal data leaves your device.</p>
 
-  <section>
-    <h2>Analytics &amp; Crash Reporting</h2>
-    <p>We use Firebase Analytics and Firebase Crashlytics (both provided by Google) to understand gameplay trends and diagnose crashes. These services may collect aggregated, de-identified information such as app version, device model, iOS version, and crash traces. No personally identifying information is collected. Google's handling of this data is described at <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>.</p>
-  </section>
+    <h2>What we do not collect</h2>
+    <p>The App does not use advertising SDKs, third-party analytics, tracking pixels, or social media integrations. There is no account sign-up, and the App does not request access to your contacts, photos, location, camera, or microphone.</p>
 
-  <section>
-    <h2>Data Storage</h2>
-    <p>Leaderboard data is stored in Google Firestore (US-based Google Cloud infrastructure). Your anonymous player ID and display name are the only fields associated with you, and only you can identify yourself from the public leaderboard (by recognizing your own name).</p>
-  </section>
+    <h2>Children's privacy</h2>
+    <p>The App is designed to be suitable for all ages and does not knowingly collect personally identifiable information from children under 13. The only information stored in the leaderboard is a user-chosen display name and a score, neither of which is personally identifying on its own. Parents who wish to have a leaderboard entry removed can contact us using the form below.</p>
 
-  <section>
-    <h2>Children's Privacy</h2>
-    <p>Ball Blast: Ember Strike does not knowingly collect personal information from children under 13. The game collects no data at all if you do not set a display name. If you believe a child has submitted a leaderboard entry and you would like it removed, email the contact below.</p>
-  </section>
+    <h2>Your rights and data deletion</h2>
+    <p>You can request the removal of any leaderboard entry you submitted by contacting us through the form below. Please include the approximate display name and score so we can locate your entry. Uninstalling the App will remove all locally stored data from your device.</p>
 
-  <section>
-    <h2>Your Choices</h2>
-    <p>• <strong>Opt out completely:</strong> do not set a display name. No data ever leaves your device.<br>
-    • <strong>Reset local data:</strong> Settings → Reset Stats clears all local progress, high scores, and achievements on this device.<br>
-    • <strong>Delete your leaderboard entry:</strong> email <a href="mailto:duskinterteling@gmail.com">duskinterteling@gmail.com</a> with your display name. We'll remove it within 7 days.</p>
-  </section>
+    <h2>Changes to this policy</h2>
+    <p>If this policy ever changes, the updated version will appear on this page with a new "Last updated" date.</p>
 
-  <section>
-    <h2>Changes to This Policy</h2>
-    <p>If this policy changes materially, we'll update the date at the top and post a notice in the app before the changes take effect.</p>
-  </section>
-
-  <section>
     <h2>Contact</h2>
-    <p>Questions, concerns, or removal requests:<br>
-    <a href="mailto:duskinterteling@gmail.com">duskinterteling@gmail.com</a></p>
-  </section>
+    <p>For privacy questions, data deletion requests, support, or general feedback, please use the form below. This is the official contact channel for the App.</p>
 
-  <footer>
-    © 2026 T9 Capital · Ball Blast: Ember Strike
-  </footer>
-</div>
+    <div class="card form-card">
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="name">Name (optional)</label>
+        <input type="text" id="name" name="name" autocomplete="name" />
+
+        <label for="email">Your email (optional — only if you want a reply)</label>
+        <input type="email" id="email" name="email" autocomplete="email" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+
+    <footer>
+      &copy; 2026 Ball Blast: Ember Strike. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
